@@ -5,13 +5,33 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
     <link href="./styles.css" rel="stylesheet">
-    <title>Hello World!</title>
+    <title>FileZilla.js</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <form>
+      Host: <input id="host" type="text" name="host"/>
+      Port: <input id="port" type="text" name="port"/>
+      <br />    
+      Username: <input id="username" type="text" name="username"/>
+      Password: <input id="password" type="password" name="Password"/>
+      <br />
+      <br />            
+      <input type="button" id="connect" name="submit" value="Quick Connect" />
+    </form>
+
+    <br />
+    <br />      
+
+    <div id="remote-host">Not connected</div>
+
+    <br />
+    <br />      
+
+    <div id="environment">
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.
+    </div>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
