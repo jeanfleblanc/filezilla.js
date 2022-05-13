@@ -5,10 +5,17 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
     <link href="./styles.css" rel="stylesheet">
-    <title>Hello World!</title>
+    <title>FileZilla.js</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <form>
+      Host: <input type="text" name="host"/>
+      Username: <input type="text" name="host"/>
+      Password: <input type="password" name="Password"/>
+      Port: <input type="text" name="port"/>
+      <input type="button" name="submit" value="Quick Connect" />
+    </form>
+
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.
