@@ -1,16 +1,33 @@
-# electron-quick-start
+# FileZilla.js
 
-**Clone and run for a quick way to see Electron in action.**
+FileZilla.js®, the free FTP solution written with Electron. The FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP.
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
+[![Main Window](docs/images/fz3_win_main-small.png)](docs/images/fz3_win_main.png)
 
-A basic Electron application needs just these files:
+[![Settings](docs/images/fz3_win_settings-small.png)](docs/images/fz3_win_settings.png)
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+[![Settings](docs/images/fz3_win_sitemanager-small.png)](docs/images/fz3_win_sitemanager.png)
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
+## Features
+
+Among others, the features of FileZilla include the following:
+
+* Easy to use
+* Supports FTP, FTP over SSL/TLS (FTPS) and SSH File Transfer Protocol (SFTP)
+* Cross-platform. Runs on Windows, Linux, *BSD, macOS and more 
+* IPv6 support
+* Available in many languages **TODO**
+* Supports resume and transfer of large files >4GB **TODO**
+* Tabbed user interface **TODO**
+* Powerful Site Manager and transfer queue **TODO**
+* Bookmarks **TODO**
+* Drag & drop support **TODO**
+* Configurable transfer speed limits **TODO**
+* Filename filters **TODO**
+* Directory comparison **TODO**
+* Keep-alive **TODO**
+* HTTP/1.1, SOCKS5 and FTP-Proxy support **TODO**
+* Flatpack support on Linux **TODO**
 
 ## To Use
 
@@ -18,9 +35,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/jeanfleblanc/filezilla.js
 # Go into the repository
-cd electron-quick-start
+cd filezilla.js
 # Install dependencies
 npm install
 # Run the app
