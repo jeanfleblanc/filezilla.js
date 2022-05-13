@@ -10,13 +10,22 @@
   <body>
     <form>
       Host: <input id="host" type="text" name="host"/>
+      Port: <input id="port" type="text" name="port"/>
+      <br />    
       Username: <input id="username" type="text" name="username"/>
       Password: <input id="password" type="password" name="Password"/>
-      Port: <input id="port" type="text" name="port"/>
+      <br />
+      <br />            
       <input type="button" id="connect" name="submit" value="Quick Connect" />
     </form>
 
+    <br />
+    <br />      
+
     <div id="remote-host">Not connected</div>
+
+    <br />
+    <br />      
 
     <div id="environment">
     We are using Node.js <span id="node-version"></span>,
