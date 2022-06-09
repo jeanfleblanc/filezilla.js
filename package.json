@@ -12,10 +12,8 @@
   "repository": "https://github.com/jeanfleblanc/filezilla.js",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "FileZilla",
+    "FTP"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",

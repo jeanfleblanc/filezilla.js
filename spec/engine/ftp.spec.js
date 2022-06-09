@@ -1,4 +1,4 @@
-let ftp = require("../../engine/ftp.js")
+const ftp = require("../../engine/ftp.js")
 
 test("host", () => {
   expect(ftp.host()).toEqual("")
